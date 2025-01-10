@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <div>
+        <h2>Ajouter un article</h2>
+        <form id="addArticleForm" onsubmit="addArticle(event)">
+            <label for="addTitle">Titre:</label>
+            <input type="text" id="addTitle" required><br>
+            <label for="addContent">Contenu:</label>
+            <textarea id="addContent" required></textarea><br>
+            <button type="submit">Ajouter</button>
+        </form>
+    </div>
+    
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
